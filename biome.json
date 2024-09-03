@@ -2,6 +2,7 @@
 	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
 
 	"formatter": {
+		"enabled": true,
 		"formatWithErrors": true,
 		"lineWidth": 120
 	},
@@ -11,7 +12,17 @@
 			"quoteStyle": "single",
 			"semicolons": "asNeeded",
 			"arrowParentheses": "asNeeded",
-			"indentStyle": "space"
+			"indentStyle": "space",
+			"bracketSameLine": false
+		}
+	},
+
+	"organizeImports": { "enabled": true },
+
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true
 		}
 	}
 }

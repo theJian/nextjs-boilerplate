@@ -1,4 +1,3 @@
 export default {
-  '*.{js,mjs,cjs,ts,jsx,tsx}': ['biome format --write --no-errors-on-unmatched'],
-  '*.json': ['biome format --write --no-errors-on-unmatched'],
+  '*.{js,mjs,cjs,ts,jsx,tsx,json}': ['biome check --write --no-errors-on-unmatched'],
 }
