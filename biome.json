@@ -24,5 +24,18 @@
 		"rules": {
 			"recommended": true
 		}
-	}
+	},
+
+	"overrides": [
+		{
+			"include": ["apps/web/**"],
+			"linter": {
+				"rules": {
+					"correctness": {
+						"useHookAtTopLevel": "warn"
+					}
+				}
+			}
+		}
+	]
 }
