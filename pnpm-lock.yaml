@@ -36,6 +36,9 @@ importers:
         specifier: ^18
         version: 18.3.1(react@18.3.1)
     devDependencies:
+      '@shared/compiler':
+        specifier: workspace:*
+        version: link:../../packages/compiler
       '@shared/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
@@ -60,6 +63,8 @@ importers:
       typescript:
         specifier: ^5
         version: 5.5.4
+
+  packages/compiler: {}
 
   packages/typescript-config:
     devDependencies:
